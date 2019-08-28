@@ -1,7 +1,10 @@
 package com.jashu.SpringAnno;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+//@Component("samsung") default name ||Non qualified and de capitalize
+@Component
 public class Samsung
 {
     @Autowired
