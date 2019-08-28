@@ -1,6 +1,7 @@
 package com.jashu.SpringAnno;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 //@Component("samsung") default name ||Non qualified and de capitalize
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Component;
 public class Samsung
 {
     @Autowired
+    @Qualifier("mediaTek")
     private MobileProcessor cpu;
 
     public void config()

@@ -7,6 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * Hello world!
  *
  */
+// Spring Core Annotation
 public class App
 {
     public static void main(String[] args)
